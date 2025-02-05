@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pharma/screens/HomeScreen.dart';
+import 'package:pharma/screens/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: Homescreen(),
     );
   }
 }
-
